@@ -17,7 +17,9 @@
     "url": "https://github.com/smileyuichi/webpack_practice_app/issues"
   },
   "homepage": "https://github.com/smileyuichi/webpack_practice_app#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
   "devDependencies": {
     "live-server": "^1.2.1",
     "webpack": "^5.6.0",
