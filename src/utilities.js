@@ -6,6 +6,6 @@ export const NAME = "yuichi2";
 
 export default class Lion{
     static say() {
-        return "Roar"
+        return "Roar!"
     }
 }
