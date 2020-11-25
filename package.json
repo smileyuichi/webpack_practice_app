@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "launch": "webpack-dev-server --open --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "react-dom": "^16.8.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
     "url-loader": "^1.1.2",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
